@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Time Widget</title>
+       	<!-- <link rel="stylesheet" href="normalize.css"> -->
+       	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.1.0/pure-min.css">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="page ">
+		<div class="input">
+			<p class = "header">Enter a time/date e.g. 6/10/13 6:00</p>
+			<form action="" class="enterTime pure-form">
+				<input type="text" class="timeIn">
+				<!-- <input class = "userInput"  type="submit" value="Send"> -->
+			</form>
+			<button class="timeIn pure-button">Submit time/date</button>
+		</div>
+<table class="pure-table">
+    <thead>
+        <tr>      
+            <th>Time Zone</th>
+            <th>Local Time</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>EST</td>
+            <td class="EST"></td>
+        </tr>
+        <tr>
+            <td>CST</td>
+            <td class="CST"></td>
+        </tr>
+        <tr>
+            <td>MST</td>
+            <td class="MST"></td>
+        </tr>
+        <tr>
+            <td>PST</td>
+            <td class="PST"></td>
+        </tr>
+    </tbody>
+</table>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src ="main.js"></script>
+	<script src ="moment.js"></script>		
+</body>
+</html>
